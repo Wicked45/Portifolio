@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-conteudo {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    display: none;
+}
+
+.dropdown-conteudo a {
+    display: block;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+.dropdown-conteudo a:hover {
+    background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-conteudo {
+    display: block;
+}
+.container {
+    max-width: 800px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.produto h2 {
+    margin-top: 0;
+}
+.produto img {
+    width: 200px; 
+    height: 150px; /* Define a altura máxima como 150 pixels */
+    border-radius: 5px; /* Aplique borda arredondada, se desejar */
+    border: #489c04 1px solid;
+}
+
+.descricao {
+    margin-bottom: 15px;
+}
+
+.acoes button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.editar {
+    background-color: #fdfdfd;
+    border: 2px solid #008000;
+    border-radius: 5px;
+    color: #008000;
+}
+
+.troca {
+    background-color: #105200;
+    border: 2px solid #105200;
+    color: white;
+}
+
+.excluir{
+    background-color: #489c04;
+    border: 2px solid #489c04;
+    color: white;
+}
+
+.cadastrar {
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #489c04;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.cadastrar:hover {
+    background-color: #008000;
+}
+.navegacao {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navegacao button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.navegacao button:hover {
+    background-color: #45a049;
+}

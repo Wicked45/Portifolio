@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #00cc00;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 204, 0, 0.5);
+}
+
+.secao {
+    margin-bottom: 20px;
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    margin-right: 20px;
+}
+
+.descricao {
+    flex-grow: 1;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.aceitar {
+    background-color: #00cc00;
+    color: white;
+}
+
+.recusar {
+    background-color: #ff0000;
+    color: white;
+}

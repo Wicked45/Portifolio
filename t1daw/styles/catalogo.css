@@ -1,0 +1,159 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  width: 200px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-conteudo {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+}
+
+.dropdown-conteudo a {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid #ccc;
+  text-decoration: none;
+  color: #000;
+  transition: background-color 0.3s;
+}
+
+.dropdown-conteudo a:hover {
+  background-color: #f2f2f2;
+}
+
+.dropdown:hover .dropdown-conteudo {
+  display: block;
+}
+
+.produtos {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+}
+
+.coluna {
+  width: 100%;
+}
+
+.card-produto {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-produto img {
+  width: 200px;
+  height: 150px; /* Define a altura máxima como 150 pixels */
+  border-radius: 8px;
+}
+
+.card-produto h3 {
+  margin-top: 10px;
+}
+
+.card-produto p {
+  color: #666;
+}
+
+.card-produto button.interesse {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.card-produto button.interesse:hover {
+  background-color: #45a049;
+}
+
+.card-produto button.interesse:focus {
+  background-color: #ffffff;
+  color: #4caf50;
+  border: solid 1px #45a049;
+}
+
+.card-produto .descricao {
+  display: none;
+}
+
+.card-produto:hover .descricao {
+  display: block;
+}
+
+.navegacao {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.navegacao button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.navegacao button:hover {
+  background-color: #45a049;
+}
+
+.img-prod {
+  max-width: 150px;
+  max-height: 150px;
+  border: 2px solid #8bc34a;
+  padding: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
